@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=ZCOOL+QingKe+HuangYou&display=swap');
+:root{
+    --main-bg-color:brown;
+    --font1roboto:'roboto1',simple;
+    --font2:'roboto2',bold;
+}
+.font1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.font2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.my-2{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.max-width-1{
+    max-width: 80vw;
+
+}
+.max-width-2{
+    max-width: 60vw;
+
+}
+.mx-1{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.m-auto{
+    margin: auto;
+}
+.btn{
+    padding:0px 15px;
+    
+    border: 2px solid black ;
+    border-radius:10px ;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+}
+.btn:hover{
+    color: white;
+    background-color: var(--main-bg-color);
+}
+
+.form-input{
+    padding:0px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius:4px ;
+    margin: 0 13px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.form-box input,textarea{
+    width: 44vw;
+    padding:0px 6px ;
+    margin: 7px 0;
+    font-size: 18px;
+    font-family: var(--font2);
+    border: 2px solid var(--main-bg-color);
+    border-radius: 10px;
+
+}
+.center{
+    text-align: center;
+}
+

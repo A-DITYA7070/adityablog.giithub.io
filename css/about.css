@@ -1,0 +1,29 @@
+.about-me{
+    width: 90vw;
+    display: flex;
+    background-image: url(/image/image2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 65px;
+    
+
+}
+.about-me p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.about-img{
+margin-left: 90px;
+margin-top: 20px;
+}
+.about-img img{
+    height:30vw;
+    width: 30vw;
+    
+}
+.about-me-content{
+    /* background-color: red; */
+    margin: 30px;
+    /* margin-top: auto; */
+    margin-top: 150px;
+}
